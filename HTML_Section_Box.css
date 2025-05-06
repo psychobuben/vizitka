@@ -28,7 +28,8 @@ html, body {
     text-align: center;
     justify-self: center; /* zarovná box vodorovně */
     align-self: center; /* zarovná box nahoru ve své grid oblasti */
-    margin: 20px;
+    margin-top: 20px;
+
     
     
   }
@@ -48,10 +49,15 @@ html, body {
   }
   img {
     width: 100%;
+    
   }
 .social {
   width: 25px;
   margin: 10px;
+}
+
+h1, h2 {
+  font-size: 14px;
 }
   
   
