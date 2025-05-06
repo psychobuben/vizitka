@@ -1,7 +1,9 @@
+
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow-x: hidden;
   }
   
   .section {
@@ -28,7 +30,8 @@ html, body {
     text-align: center;
     justify-self: center; /* zarovná box vodorovně */
     align-self: center; /* zarovná box nahoru ve své grid oblasti */
-    margin-top: 20px;
+    margin-top: 10px;
+   
 
     
     
@@ -48,6 +51,7 @@ html, body {
     
   }
   img {
+    max-width: 400px;
     width: 100%;
     
   }
